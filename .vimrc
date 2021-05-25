@@ -12,6 +12,9 @@ let g:deoplete#enable_at_startup = 1
 
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
+Plug 'altercation/vim-colors-solarized'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Tabs are 4 spaces
@@ -40,3 +43,6 @@ if has('conceal')
 endif
 
 let g:neosnippet#snippets_directory="~/Projekte/VimConfig/snippets"
+syntax enable
+set background=dark
+colorscheme solarized
