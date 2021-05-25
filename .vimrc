@@ -45,4 +45,5 @@ endif
 let g:neosnippet#snippets_directory="~/Projekte/VimConfig/snippets"
 syntax enable
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
