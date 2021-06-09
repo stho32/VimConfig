@@ -7,7 +7,8 @@ else
 fi
 
 echo "  - copying vimrc file from repository to local user directory"
-cp .vimrc ~/.vimrc
+cp init.vim ~/.vimrc
+cp init.vim ~/.config/nvim/init.vim
 
 echo "  - install python3-neovim ..."
 sudo apt install python3-neovim
