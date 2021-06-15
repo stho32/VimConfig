@@ -21,6 +21,8 @@ Plug 'Shougo/neosnippet-snippets'
 Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'OmniSharp/omnisharp-vim'
 call plug#end()
 
 " Tabs are 4 spaces
