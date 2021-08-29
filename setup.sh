@@ -15,3 +15,5 @@ sudo apt install python3-neovim
 
 echo "COMPLETE"
 echo "dont forget to run :PlugInstall / :PlugUpdate"
+
+# some comment
